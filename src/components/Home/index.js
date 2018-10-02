@@ -66,10 +66,10 @@ const Home = props => {
         >
           <Grid item xs={12} md={6}>
             <Typography variant="display2" color="primary" align="center">
-              TAE NG KABAYO
+              Home
             </Typography>
             <Typography variant="display5" color="primary" align="center">
-              malapit na malapit na malapit na malapit ng ilabas
+              There is no place like home
             </Typography>
           </Grid>
         </HomeContentInner>
