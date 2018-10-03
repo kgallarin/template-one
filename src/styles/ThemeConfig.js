@@ -1,13 +1,15 @@
-export default {
+import { createMuiTheme } from "@material-ui/core/styles";
+
+const baseTheme = createMuiTheme({
   palette: {
     type: "light",
     primary: {
       main: "#fff",
-      dark: "#282828",
-      contrastText: "#c3bb89"
+      dark: "rgba(0,0,0,0)",
+      contrastText: "#fff"
     },
     secondary: {
-      main: "#000",
+      main: "#edc951",
       dark: "#282828",
       contrastText: "#282828"
     },
@@ -25,4 +27,6 @@ export default {
       backgroundColor: "#ffeb3b"
     }
   }
-};
+});
+
+export default baseTheme;
