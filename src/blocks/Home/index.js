@@ -11,12 +11,14 @@ import StyledButton from "elements/Buttons";
 
 const Home = styled.section`
   height: 100%;
+  background: none;
 `;
 
 const styles = theme => ({
   root: {
     height: "100%"
   },
+  background: "none",
   homeButton: {
     marginTop: theme.spacing.unit * 2
   }

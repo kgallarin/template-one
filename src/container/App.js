@@ -8,7 +8,7 @@ import "styles/App.css";
 
 // components
 import HomeComponent from "components/Home";
-// import About from "components/About";
+import About from "components/About";
 
 class App extends Component {
   componentDidMount() {}
@@ -18,7 +18,7 @@ class App extends Component {
         <CssBaseline />
         <ThemeProvider theme={baseTheme}>
           <HomeComponent />
-          {/* <About /> */}
+          <About />
         </ThemeProvider>
       </Fragment>
     );
