@@ -7,7 +7,7 @@ import "typeface-roboto";
 import "styles/App.css";
 
 // components
-import HomeComponent from "components/Home";
+import Home from "components/Home";
 import About from "components/About";
 
 class App extends Component {
@@ -17,7 +17,7 @@ class App extends Component {
       <Fragment>
         <CssBaseline />
         <ThemeProvider theme={baseTheme}>
-          <HomeComponent />
+          <Home />
           <About />
         </ThemeProvider>
       </Fragment>
