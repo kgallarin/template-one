@@ -1,6 +1,8 @@
 import React from "react";
 import About from "blocks/About";
 
+import AboutImage from "assets/images/about/about-blank.jpg";
+
 export default () => {
   return (
     <About>
@@ -30,6 +32,9 @@ export default () => {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </About.TextContent>
           </About.ItemListInner>
+        </About.ItemList>
+        <About.ItemList>
+          <About.Image src={AboutImage} alt="/" />
         </About.ItemList>
       </About.Inner>
     </About>

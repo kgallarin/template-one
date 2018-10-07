@@ -1,20 +1,18 @@
 import styled from "styled-components";
-import { withStyles } from "@material-ui/core/styles";
-
 import Inner from "blocks/About/Inner";
 import ItemList from "blocks/About/ItemList";
 import ItemListInner from "blocks/About/ItemListInner";
 import TextContent from "blocks/About/TextContent";
+import Image from "elements/Image";
 
-const About = styled.section``;
-
-const styles = {
-  root: "100%"
-};
+const About = styled.section`
+  padding: 40px 0;
+`;
 
 About.Inner = Inner;
 About.ItemList = ItemList;
 About.ItemListInner = ItemListInner;
 About.TextContent = TextContent;
+About.Image = Image;
 
-export default withStyles(styles)(About);
+export default About;

@@ -4,16 +4,6 @@ import { applyStyleModifiers } from "styled-components-modifiers";
 import baseTheme from "styles/ThemeConfig";
 
 const MODIFIER_CONFIG = {
-  disabled: () => `
-    `,
-  success: () => `
-  `,
-
-  warning: () => `
-  `,
-
-  large: () => `
-  `,
   uppercase: () => `
     && {
       text-transform : uppercase;
