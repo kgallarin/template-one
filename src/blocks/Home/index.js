@@ -1,4 +1,3 @@
-import { withStyles } from "@material-ui/core/styles";
 import styled from "styled-components";
 import Video from "blocks/Home/Video";
 import Overlay from "blocks/Home/Overlay";
@@ -14,16 +13,6 @@ const Home = styled.section`
   background: none;
 `;
 
-const styles = theme => ({
-  root: {
-    height: "100%"
-  },
-  background: "none",
-  homeButton: {
-    marginTop: theme.spacing.unit * 2
-  }
-});
-
 Home.Video = Video;
 Home.Overlay = Overlay;
 Home.Container = Container;
@@ -33,4 +22,4 @@ Home.SubHeadingText = SubHeadingText;
 Home.Link = StyledButton;
 Home.HighLighted = HighLighted;
 
-export default withStyles(styles)(Home);
+export default Home;
