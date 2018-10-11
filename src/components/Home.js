@@ -1,16 +1,16 @@
 import React from "react";
 import Home from "blocks/Home";
 // assets
-import trafficDisco from "assets/images/Traffic_disco.jpg";
-import trafficDiscom4 from "assets/video/Traffic_disco.mp4";
-import trafficDiscowebm from "assets/video/Traffic_disco.webm";
+import mLights from "assets/images/Modem-lights.jpg";
+import mLightsm4 from "assets/video/Modem-lights.mp4";
+import mLightswebm from "assets/video/Modem-lights.webm";
 
 const HomeComponent = () => {
   return (
     <Home>
-      <Home.Video poster={trafficDisco} muted loop autoPlay>
-        <source src={trafficDiscom4} type="video/mp4" />
-        <source src={trafficDiscowebm} type="video/webm" />
+      <Home.Video poster={mLights} muted loop autoPlay>
+        <source src={mLightsm4} type="video/mp4" />
+        <source src={mLightswebm} type="video/webm" />
       </Home.Video>
       <Home.Overlay />
       <Home.Container
