@@ -9,7 +9,7 @@ export default () => {
       <About.Inner container justify="flex-start" alignItems="flex-start">
         <About.ItemList item md={6}>
           <About.ItemListInner>
-            <About.HeadersFlipped>Who we are</About.HeadersFlipped>
+            <About.HeadersFlipped uppercase>Who we are</About.HeadersFlipped>
             <About.Headers variant="display3">
               A <strong>Story</strong>
               <br /> About us

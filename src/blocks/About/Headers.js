@@ -7,6 +7,7 @@ const TextContent = styled(Typography)`
     font-weight: 100;
     font-family: "Raleway";
     line-height: 45px;
+    margin: 0 0 0 35px;
   }
 `;
 

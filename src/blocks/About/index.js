@@ -8,7 +8,7 @@ import TextContent from "blocks/About/TextContent";
 import Image from "elements/Image";
 
 const About = styled.section`
-  padding: 40px 0;
+  padding: 120px 0;
 `;
 
 About.Inner = Inner;
