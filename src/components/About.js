@@ -9,16 +9,16 @@ export default () => {
       <About.Inner container justify="flex-start" alignItems="flex-start">
         <About.ItemList item md={6}>
           <About.ItemListInner>
-            <About.TextFlipped>Who we are</About.TextFlipped>
-            <About.TextContent>
+            <About.HeadersFlipped>Who we are</About.HeadersFlipped>
+            <About.Headers variant="display3">
               A <strong>Story</strong>
-              <br /> about us
-            </About.TextContent>
+              <br /> About us
+            </About.Headers>
           </About.ItemListInner>
         </About.ItemList>
         <About.ItemList item md={6}>
           <About.ItemListInner>
-            <About.TextContent>
+            <About.TextContent paragraph>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
               recusandae ratione soluta voluptates praesentium ipsam labore,
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
@@ -27,7 +27,7 @@ export default () => {
               Aliquam recusandae ratione soluta voluptates praesentium ipsam
               labore,
             </About.TextContent>
-            <About.TextContent>
+            <About.TextContent paragraph>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
               recusandae ratione soluta voluptates praesentium ipsam labore,
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
