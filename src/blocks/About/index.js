@@ -3,6 +3,7 @@ import Inner from "blocks/About/Inner";
 import ItemList from "blocks/About/ItemList";
 import ItemListInner from "blocks/About/ItemListInner";
 import TextContent from "blocks/About/TextContent";
+import TextFlipped from "blocks/About/TextFlipped";
 import Image from "elements/Image";
 
 const About = styled.section`
@@ -14,5 +15,6 @@ About.ItemList = ItemList;
 About.ItemListInner = ItemListInner;
 About.TextContent = TextContent;
 About.Image = Image;
+About.TextFlipped = TextFlipped;
 
 export default About;

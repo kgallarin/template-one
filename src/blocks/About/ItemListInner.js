@@ -1,12 +1,7 @@
 import styled from "styled-components";
-import { withStyles } from "@material-ui/core/styles";
 
 const ItemListInner = styled.div`
-  ${"" /* padding: 50px; */};
+  ${"" /* background: #000; */};
 `;
 
-export default withStyles(({ palette, spacing }) => ({
-  root: {
-    background: "#000 !important"
-  }
-}))(ItemListInner);
+export default ItemListInner;
