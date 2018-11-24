@@ -38,7 +38,7 @@ const HomeComponent = () => {
               color="primary"
               variant="contained"
             >
-              START NOW
+              START NOW HELLO
             </Home.Link>
           </Home.Container>
         </Home.Item>
